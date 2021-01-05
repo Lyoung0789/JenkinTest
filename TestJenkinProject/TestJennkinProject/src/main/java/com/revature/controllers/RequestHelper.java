@@ -16,6 +16,8 @@ public class RequestHelper {
 			RequestDispatcher redis = req.getRequestDispatcher("/index.html"); 
 			redis.forward(req, resp);
 			break; 
+		default: 
+			break; 
 		}
 		
 	}
